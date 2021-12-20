@@ -248,6 +248,7 @@ let oddChecker = thatsOdd(2);
 */
 
 //CODE HERE
+const bestMovie = (movieTitle) => `${movieTitle} is the best movie ever!`;
 
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1, 101, 102, 2, 103, 4, 5, 6, 107];
