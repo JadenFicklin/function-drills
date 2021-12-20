@@ -139,6 +139,7 @@ arrow;
 
   Brownie points if you use a template string
 */
+const exclaimThree = (str) => `${str.toUpperCase()}!!!`;
 
 ////////////////// PROBLEM 9 ////////////////////
 
