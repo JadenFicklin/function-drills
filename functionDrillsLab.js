@@ -201,6 +201,7 @@ function faveColorFinder(color) {
   }
 }
 let colorRating = faveColorFinder("blue");
+//when I use return instead of console.log it doesnt show on the console?
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ["Cameron", "Riley", "Eric", "Brenna", "Karl"];
@@ -211,6 +212,12 @@ let namesArr = ["Cameron", "Riley", "Eric", "Brenna", "Karl"];
 */
 
 //CODE HERE
+const printAllNames = () => {
+  for (let i = 0; i < namesArr.length; i++) {
+    console.log(namesArr[i]);
+  }
+};
+console.log(printAllNames());
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
