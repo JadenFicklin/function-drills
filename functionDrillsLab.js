@@ -364,6 +364,7 @@ let totalFrogs = chocolateFrogs(100);
 */
 
 //CODE HERE
+//I did solve the rounding error in the previous problem
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0, 1, 2, 3, 4, 7, 5, 6, 8, 9];
