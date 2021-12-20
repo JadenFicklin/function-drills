@@ -116,7 +116,7 @@ const exclaim = function (str) {
 
 // arrow
 // declaration
-expression;
+// expression; THIS ONE
 
 ////////////////// PROBLEM 8 ////////////////////
 
@@ -129,7 +129,7 @@ const exclaimTwo = (str) => {
   return str.toUpperCase() + "!!!";
 };
 
-arrow;
+// arrow; THIS ONE
 // declaration
 // expression
 
@@ -153,7 +153,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-declaration;
+// declaration; THIS ONE
 // expression
 
 ////////////////// PROBLEM 10 ////////////////////
@@ -166,6 +166,17 @@ declaration;
 */
 
 //CODE HERE
+function nameCheck(name) {
+  if (name === "Steven") {
+    console.log(`What is up Steven`);
+  } else if (name === "Bryan") {
+    console.log(`Hey Bryan!`);
+  } else {
+    console.log(`Cool name, ${name}`);
+  }
+}
+
+let nameGreeting = nameCheck("Jaden");
 
 ////////////////// PROBLEM 11 ////////////////////
 /*
