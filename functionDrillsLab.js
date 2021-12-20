@@ -81,6 +81,7 @@ const compareNums = (a, b) => {
   }
 };
 console.log(compareNums(1, 2));
+//getting an undefined?
 
 const compareNums2 = (a, b) => (a > b ? a : b);
 console.log(compareNums2(1, 9));
@@ -94,6 +95,13 @@ console.log(compareNums2(1, 9));
 */
 
 //CODE HERE
+function add(a, b) {
+  const withParseIntA = parseInt(a);
+  const withParseIntB = parseInt(b);
+  const addBandA = withParseIntA + withParseIntB;
+  return addBandA;
+}
+console.log(add("42ft", "50ft"));
 
 ////////////////// PROBLEM 7 ////////////////////
 
