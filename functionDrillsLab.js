@@ -315,6 +315,7 @@ let sampleString = "Hi, my name is Kylo.";
 function consoleThis(string) {
   console.log(string.toUpperCase());
 }
+
 consoleThis(sampleString);
 
 ////////////////// PROBLEM 18 ////////////////////
