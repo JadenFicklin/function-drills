@@ -153,7 +153,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+declaration;
 // expression
 
 ////////////////// PROBLEM 10 ////////////////////
