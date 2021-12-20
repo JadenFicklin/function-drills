@@ -71,6 +71,19 @@ greeting("Jaden");
 */
 
 //CODE HERE
+const compareNums = (a, b) => {
+  if (a > b) {
+    console.log(`${a} is bigger`);
+  } else if (b > a) {
+    console.log(`${b} is bigger`);
+  } else {
+    console.log(`${a}, ${b}`);
+  }
+};
+console.log(compareNums(1, 2));
+
+const compareNums2 = (a, b) => (a > b ? a : b);
+console.log(compareNums2(1, 9));
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
