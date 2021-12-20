@@ -373,6 +373,18 @@ let sampleArray = [0, 1, 2, 3, 4, 7, 5, 6, 8, 9];
 */
 
 //CODE HERE
+function arrays(arr) {
+  let firstItemOfArray = arr[0];
+  for (let i = 1; i < arr.length - 1; i++) {
+    if (arr[i] <= firstItemOfArray) {
+      return false;
+    } else {
+      firstItemOfArray = arr[i];
+    }
+  }
+  return true;
+}
+let ascendingArray = console.log(arrays(sampleArray));
 
 ////////////////// PROBLEM 22 ////////////////////
 
