@@ -212,12 +212,12 @@ let namesArr = ["Cameron", "Riley", "Eric", "Brenna", "Karl"];
 */
 
 //CODE HERE
-const printAllNames = () => {
-  for (let i = 0; i < namesArr.length; i++) {
-    console.log(namesArr[i]);
+const printAllNames = (names) => {
+  for (let i = 0; i < names.length; i++) {
+    console.log(names[i]);
   }
 };
-console.log(printAllNames());
+console.log(printAllNames(namesArr));
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
